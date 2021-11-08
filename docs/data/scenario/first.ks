@@ -1,46 +1,46 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="右に曲がるか左に曲がるか"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「右に曲がるか左に曲がるか」[l][r]
 
-メロスは激怒した。[l][r]
+起きたら８時半。始業式なのに遅刻寸前だ[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+朝食代わりに食パンをくわえて家を出る[l][r]
 
-(中略)[l][r]
+遅刻遅刻！！、、と思ったら曲がり角だ。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+学校に行くために・・・
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_right] →右に曲がる [endlink][r]
+[link target=*tag_left] →左に曲がる [endlink][r]
 [s]
 
-*tag_sleep
+*tag_right
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=body_hand_yogore.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+「ぼちゃん」大きな音がなり、急に視界が真っ暗になった[l][r]
+やられた、、どぶにはまったらしい[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_left
 
-[bg storage=run.jpg time=500]
+[bg storage=mail_couple.png time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
-
+「どん！」誰かにぶつかって派手に転んだ。よく見たら憧れのA先輩だ[l][r]
+「遅刻しそうなら乗る？」A先輩の自転車の後ろに乗せてもらえることになった[l][r]
+「そういえば連絡先交換してなかったよね？」先輩と二人乗りした上に、連絡先交換まで、、！
+遅刻にもいいことがあるもんだ[r]
 【 GOOD END 】[l][cm]
 
 [jump target=*start]
